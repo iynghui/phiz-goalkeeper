@@ -1,0 +1,4 @@
+public/assets/models/*.obj binary
+public/assets/models/*.glb binary
+*.png binary
+*.jpg binary

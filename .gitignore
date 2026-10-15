@@ -1,0 +1,30 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+.vite/
+.vercel/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+
+# Local agent instructions, review notes, and reference material
+*.md
+!README.md
+artifacts/
+docs/
+
+# Local tooling and unused prototype assets
+.npmrc
+.openai/
+playwright.config.ts
+tests/
+scripts/*
+!scripts/check-mobile-runtime.mjs
+!scripts/prepare-sites-build.mjs
+!scripts/update-mobile-runtime-lock.mjs
+public/assets/phiz/attacker-red.png
+public/assets/phiz/penalty-stadium-clean.png
+public/assets/phiz/penalty-stadium.png
